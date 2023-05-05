@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1-bullseye
 
 COPY /nginx/default.conf /etc/nginx/conf.d/
 
