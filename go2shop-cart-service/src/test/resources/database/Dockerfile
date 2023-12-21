@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:8-oraclelinux8
 
 COPY AuthDB/TableScript/AuthDBScript.sql /docker-entrypoint-initdb.d
 COPY AuthDB/DataScript/basic.sql /docker-entrypoint-initdb.d
